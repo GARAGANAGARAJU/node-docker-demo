@@ -30,3 +30,14 @@ steps:
     containerRegistry: 'svc-acr'
     repository: 'acrdev184'
     command: 'push'
+- task: Docker@2
+  inputs:
+    containerRegistry: 'nagaraju'
+    repository: 'nagarajuregistry'
+    command: 'build'
+    Dockerfile: '**/Dockerfile'
+- task: Docker@2
+  inputs:
+    containerRegistry: 'nagaraju'
+    repository: 'nagarajuregistry'
+    command: 'push'
