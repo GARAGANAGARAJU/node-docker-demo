@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\terraform sai"
+		},
+		{
+			"name": "node-docker-demo",
+			"path": "."
+		}
+	],
+	"settings": {}
+}
